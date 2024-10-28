@@ -32,7 +32,7 @@ function Header() {
     <header className={`z-200 w-[90%] px-10 lg:w-1/4 h-screen absolute ${isMenuClicked ? "-left-full" : "left-0 z-40 sticky "} duration-500 lg:sticky top-0 bg-gray-800`}>
     
     <div className="flex w-full h-full flex-col items-center pt-10 space-y-6">
-    <div className="border-8 border-yellow-300 w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 shadow-lg overflow-hidden transition-transform transform hover:scale-105">
+    <div className="border-8 border-yellow-300 w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 shadow-lg overflow-hidden transition-transform transform hover:scale-105">
 <img 
 src={creatorPic} 
 alt="Creator Pic" 
